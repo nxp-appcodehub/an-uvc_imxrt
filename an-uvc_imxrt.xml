@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-uvc_imxrt" type="app_note" format="projectfile" name="uvc">
+    <overview>
+        <![CDATA[This demo application shows how to build a USB video device based on MCUXpresso SDK.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="iar"></toolchain>
+    </toolchains>
+    <families>
+        <family name="imxrt"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="EVK-MIMXRT1050"></hw>
+        <hw id="EVKB-IMXRT1050"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1170-EVKB"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="video"></peripheral>
+        <peripheral name="usb"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="graphics"></category>
+    </categories>
+</data:item>
