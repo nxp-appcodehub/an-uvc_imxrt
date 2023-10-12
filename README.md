@@ -6,10 +6,10 @@ This document describes how to develop a simple UVC device using the NXP i.MX RT
 
 Please refer to [AN12103](https://www.nxp.com/docs/en/application-note/AN12103.pdf) for complete instructions on how to use this software. 
 
-#### Boards: EVK-MIMXRT1050, EVKB-IMXRT1050, MIMXRT1170-EVK, MIMXRT1170-EVKB
-#### Categories: Graphics
-#### Peripherals: VIDEO, USB
-#### Toolchains: IAR
+#### Boards: [EVK-MIMXRT1050](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1050-evaluation-kit:MIMXRT1050-EVK), [EVKB-IMXRT1050](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1050-evaluation-kit:MIMXRT1050-EVK), [MIMXRT1170-EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVK), [MIMXRT1170-EVKB](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVK)
+#### Categories: Vision, Graphics
+#### Peripherals: usb, video
+#### Toolchains: iar
 
 ## Table of Contents
 1. [Software](#step1)
@@ -22,7 +22,7 @@ Please refer to [AN12103](https://www.nxp.com/docs/en/application-note/AN12103.p
 
 ## 1. Software<a name="step1"></a>
 This demo is built based on NXP MCUXpresso SDK. All required source files to run the demo are contained in this repository.
-- MCUXpresso SDK: 2.x.x
+- MCUXpresso SDK: 2.3.0 (i.MX RT1050 UVC demo), 2.12.1 (i.MX RT1170 UVC demo)
 - NXP USB Stack: 1.6.3 (i.MX RT1050 UVC demo), 2.8.2 (i.MX RT1170 UVC demo)
 - IAR Embedded Workbench for ARM: 9.30.1
 
@@ -67,16 +67,15 @@ and open the demo video device. Then you can see the video screen on your PC.
 ## 6. Support<a name="step6"></a>
 If you have any questions, please create a ticket in [NXP Community](https://community.nxp.com/).
 
-
 #### Project Metadata
 <!----- Boards ----->
 [![Board badge](https://img.shields.io/badge/Board-EVK&ndash;MIMXRT1050-blue)](https://github.com/search?q=org%3Anxp-appcodehub+EVK-MIMXRT1050+in%3Areadme&type=Repositories) [![Board badge](https://img.shields.io/badge/Board-EVKB&ndash;IMXRT1050-blue)](https://github.com/search?q=org%3Anxp-appcodehub+EVKB-IMXRT1050+in%3Areadme&type=Repositories) [![Board badge](https://img.shields.io/badge/Board-MIMXRT1170&ndash;EVK-blue)](https://github.com/search?q=org%3Anxp-appcodehub+MIMXRT1170-EVK+in%3Areadme&type=Repositories) [![Board badge](https://img.shields.io/badge/Board-MIMXRT1170&ndash;EVKB-blue)](https://github.com/search?q=org%3Anxp-appcodehub+MIMXRT1170-EVKB+in%3Areadme&type=Repositories)
 
 <!----- Categories ----->
-[![Category badge](https://img.shields.io/badge/Category-GRAPHICS-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+graphics+in%3Areadme&type=Repositories)
+[![Category badge](https://img.shields.io/badge/Category-VISION-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+vision+in%3Areadme&type=Repositories) [![Category badge](https://img.shields.io/badge/Category-GRAPHICS-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+graphics+in%3Areadme&type=Repositories)
 
 <!----- Peripherals ----->
-[![Peripheral badge](https://img.shields.io/badge/Peripheral-VIDEO-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+video+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-USB-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+usb+in%3Areadme&type=Repositories)
+[![Peripheral badge](https://img.shields.io/badge/Peripheral-USB-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+usb+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-VIDEO-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+video+in%3Areadme&type=Repositories)
 
 <!----- Toolchains ----->
 [![Toolchain badge](https://img.shields.io/badge/Toolchain-IAR-orange)](https://github.com/search?q=org%3Anxp-appcodehub+iar+in%3Areadme&type=Repositories)
@@ -93,5 +92,5 @@ Questions regarding the content/correctness of this example can be entered as Is
 ## 7. Release Notes<a name="step7"></a>
 | Version | Description / Update                           | Date                        |
 |:-------:|------------------------------------------------|----------------------------:|
-| 1.0     | Initial release on Application Code HUb        | June 12<sup>th</sup> 2023 |
+| 1.0     | Initial release on Application Code Hub        | August 10<sup>th</sup> 2023 |
 

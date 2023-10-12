@@ -1,6 +1,9 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-uvc_imxrt" type="app_note" format="projectfile" name="uvc">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-uvc_imxrt" type="app_note" format="projectfile" name="uvc_imxrt">
+    <display_title>
+        AN12103: Simple USB video class device on i.MX RT1050
+    </display_title>
     <overview>
-        <![CDATA[This demo application shows how to build a USB video device based on MCUXpresso SDK.]]>
+        <![CDATA[This software accompanies application note [AN12103](https://www.nxp.com/docs/en/application-note/AN12103.pdf), which describes how to develop a simple UVC device using the NXP i.MX RT1050 or i.MX RT1170 processor.]]>
     </overview>
     <toolchains>
         <toolchain name="iar"></toolchain>
@@ -15,10 +18,11 @@
         <hw id="MIMXRT1170-EVKB"></hw>
     </nxp_compatible_hw>
     <peripherals>
-        <peripheral name="video"></peripheral>
         <peripheral name="usb"></peripheral>
+        <peripheral name="video"></peripheral>
     </peripherals>
     <categories>
+        <category name="vision"></category>
         <category name="graphics"></category>
     </categories>
 </data:item>
